@@ -2,7 +2,29 @@
   "permissions": {
     "allow": [
       "Bash(gh:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(cd:*)",
+      "Bash(pip install*)",
+      "Bash(\"C:/Users/student/Desktop/vibecoding/day2/module2_1/module_5-main/backend/.venv/Scripts/python.exe\" -m pytest:*)",
+      "Bash(\"C:/Users/student/Desktop/vibecoding/day2/module2_1/module_5-main/backend/.venv/Scripts/python.exe\" -m pip install pytest)",
+      "Bash(python -m pip install:*)",
+      "Bash(python3 -m pip install:*)",
+      "Bash(/c/Users/student/AppData/Local/Microsoft/WindowsApps/python -c \"import sys; sys.path.insert\\(0, ''C:/Users/student/Desktop/vibecoding/day2/module2_1/module_5-main/backend''\\); from app.models.user import User; print\\(''User model loaded successfully''\\); print\\(User.__tablename__\\)\")",
+      "Bash(.venvScriptsactivate)",
+      "Bash(pip install:*)",
+      "Bash(backend\\\\.venv\\\\Scripts\\\\pip.exe install:*)",
+      "Bash(uv pip install:*)",
+      "Bash(\".venv/Scripts/activate\")",
+      "Bash(.venv/Scripts/pip install:*)",
+      "Bash(dir \"C:\\\\Users\\\\student\\\\Desktop\\\\vibecoding\\\\day2\\\\module2_1\\\\module_5-main\\\\backend\\\\app\")",
+      "Bash(.venvScriptspip install passlib[bcrypt] python-jose[cryptography] python-multipart pydantic[email] -q)",
+      "Bash(.venv/Scripts/python.exe:*)",
+      "Bash(curl:*)",
+      "Bash(python:*)",
+      "Bash(.venvScriptspython.exe -m pytest tests/test_security.py tests/test_auth_api.py tests/test_auth_dependency.py -v)"
     ]
   }
 }
